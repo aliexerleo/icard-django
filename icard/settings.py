@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-wsp4v2oll3xdshszu89zf@6m9dn^va#gsin12+h4n*kr2w&-6z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', "localhost"]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -147,6 +147,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # USERS
 AUTH_USER_MODEL = 'users.User'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 CORS_ORIGIN_ALLOW_ALL = True
 CARS_ALLOW_CREDENTIALS = True

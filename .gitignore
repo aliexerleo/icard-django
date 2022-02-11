@@ -53,6 +53,8 @@ Thumbs.db
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
+icard/__pycache__/*pyc
 
 # C extensions
 *.so
