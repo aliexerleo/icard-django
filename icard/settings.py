@@ -81,6 +81,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'icard.wsgi.application'
+ADMIN_URL ='admin'
+
 
 
 # Database
